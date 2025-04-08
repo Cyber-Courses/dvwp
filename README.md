@@ -6,7 +6,7 @@
 git clone https://github.com/cyber-courses/dvwp.git
 cd dvwp/
 docker compose up -d --build
-sleep 30
+sleep 10
 docker compose run --rm wp-cli install-wp
 ```
 
