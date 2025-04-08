@@ -5,13 +5,13 @@
 ```
 git clone https://github.com/cyber-courses/dvwp.git
 cd dvwp/
-docker-compose up -d --build
-docker-compose run --rm wp-cli install-wp
+docker compose up -d --build
+docker compose run --rm wp-cli install-wp
 ```
 
 ## Stop
 ```
-docker-compose down
+docker compose down
 ```
 
 ## Interface
